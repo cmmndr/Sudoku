@@ -1,0 +1,1210 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://field/Field.gd" type="Script" id=1]
+[ext_resource path="res://field/Field_Button.gd" type="Script" id=2]
+[ext_resource path="res://field/assets/grid.png" type="Texture" id=3]
+[ext_resource path="res://keyboard/Keyboard.tscn" type="PackedScene" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 1, 0.0156863, 0.0156863, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.231373, 0.223529, 0.262745, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 1, 0, 0, 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 6.35082
+margin_top = 5.75208
+margin_right = 56.3508
+margin_bottom = 55.7521
+custom_styles/pressed = SubResource( 1 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "1"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button12" type="Button" parent="."]
+margin_left = 6.27531
+margin_top = 59.3402
+margin_right = 56.2753
+margin_bottom = 109.34
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "7"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button26" type="Button" parent="."]
+margin_left = 6.09128
+margin_top = 114.585
+margin_right = 56.0913
+margin_bottom = 164.585
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button35" type="Button" parent="."]
+margin_left = 6.31308
+margin_top = 171.221
+margin_right = 56.3131
+margin_bottom = 221.221
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button44" type="Button" parent="."]
+margin_left = 5.61475
+margin_top = 226.39
+margin_right = 55.6147
+margin_bottom = 276.39
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "5"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button53" type="Button" parent="."]
+margin_left = 6.47211
+margin_top = 278.69
+margin_right = 56.4721
+margin_bottom = 328.69
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button62" type="Button" parent="."]
+margin_left = 5.61472
+margin_top = 336.134
+margin_right = 55.6147
+margin_bottom = 386.134
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "9"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button71" type="Button" parent="."]
+margin_left = 6.47211
+margin_top = 391.676
+margin_right = 56.4721
+margin_bottom = 441.676
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button80" type="Button" parent="."]
+margin_left = 6.30781
+margin_top = 446.042
+margin_right = 56.3078
+margin_bottom = 496.042
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "8"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 61.0179
+margin_top = 6.3707
+margin_right = 111.018
+margin_bottom = 56.3707
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button10" type="Button" parent="."]
+margin_left = 61.1264
+margin_top = 59.5907
+margin_right = 111.126
+margin_bottom = 109.591
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "3"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button19" type="Button" parent="."]
+margin_left = 61.4945
+margin_top = 114.283
+margin_right = 111.494
+margin_bottom = 164.283
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button28" type="Button" parent="."]
+margin_left = 61.1642
+margin_top = 172.024
+margin_right = 111.164
+margin_bottom = 222.024
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button37" type="Button" parent="."]
+margin_left = 60.4658
+margin_top = 227.192
+margin_right = 110.466
+margin_bottom = 277.192
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button46" type="Button" parent="."]
+margin_left = 61.3232
+margin_top = 279.493
+margin_right = 111.323
+margin_bottom = 329.493
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button55" type="Button" parent="."]
+margin_left = 60.4658
+margin_top = 336.937
+margin_right = 110.466
+margin_bottom = 386.937
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "1"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button64" type="Button" parent="."]
+margin_left = 60.6421
+margin_top = 391.633
+margin_right = 110.642
+margin_bottom = 441.633
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "2"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button73" type="Button" parent="."]
+margin_left = 60.8184
+margin_top = 446.164
+margin_right = 110.818
+margin_bottom = 496.164
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button3" type="Button" parent="."]
+margin_left = 115.015
+margin_top = 6.08215
+margin_right = 165.015
+margin_bottom = 56.0821
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button14" type="Button" parent="."]
+margin_left = 116.412
+margin_top = 59.8543
+margin_right = 166.412
+margin_bottom = 109.854
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button20" type="Button" parent="."]
+margin_left = 116.412
+margin_top = 113.627
+margin_right = 166.412
+margin_bottom = 163.627
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button29" type="Button" parent="."]
+margin_left = 115.713
+margin_top = 172.287
+margin_right = 165.713
+margin_bottom = 222.287
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "7"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button38" type="Button" parent="."]
+margin_left = 115.015
+margin_top = 227.456
+margin_right = 165.015
+margin_bottom = 277.456
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button47" type="Button" parent="."]
+margin_left = 115.872
+margin_top = 279.756
+margin_right = 165.872
+margin_bottom = 329.756
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "6"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button56" type="Button" parent="."]
+margin_left = 115.015
+margin_top = 337.2
+margin_right = 165.015
+margin_bottom = 387.2
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "4"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button65" type="Button" parent="."]
+margin_left = 114.85
+margin_top = 392.401
+margin_right = 164.85
+margin_bottom = 442.401
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button74" type="Button" parent="."]
+margin_left = 115.027
+margin_top = 446.768
+margin_right = 165.027
+margin_bottom = 496.768
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button4" type="Button" parent="."]
+margin_left = 171.672
+margin_top = 5.55511
+margin_right = 221.672
+margin_bottom = 55.5551
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "4"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button13" type="Button" parent="."]
+margin_left = 173.069
+margin_top = 59.3272
+margin_right = 223.069
+margin_bottom = 109.327
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button27" type="Button" parent="."]
+margin_left = 173.069
+margin_top = 113.1
+margin_right = 223.069
+margin_bottom = 163.1
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button36" type="Button" parent="."]
+margin_left = 172.37
+margin_top = 171.76
+margin_right = 222.37
+margin_bottom = 221.76
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "1"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button45" type="Button" parent="."]
+margin_left = 171.672
+margin_top = 226.929
+margin_right = 221.672
+margin_bottom = 276.929
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "7"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button54" type="Button" parent="."]
+margin_left = 172.529
+margin_top = 279.229
+margin_right = 222.529
+margin_bottom = 329.229
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button63" type="Button" parent="."]
+margin_left = 171.672
+margin_top = 336.673
+margin_right = 221.672
+margin_bottom = 386.673
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "6"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button72" type="Button" parent="."]
+margin_left = 172.869
+margin_top = 392.215
+margin_right = 222.869
+margin_bottom = 442.215
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button81" type="Button" parent="."]
+margin_left = 173.387
+margin_top = 445.56
+margin_right = 223.387
+margin_bottom = 495.56
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "5"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button5" type="Button" parent="."]
+margin_left = 226.718
+margin_top = 5.73913
+margin_right = 276.718
+margin_bottom = 55.7391
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "8"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button16" type="Button" parent="."]
+margin_left = 226.827
+margin_top = 59.3272
+margin_right = 276.827
+margin_bottom = 109.327
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button23" type="Button" parent="."]
+margin_left = 226.827
+margin_top = 113.1
+margin_right = 276.827
+margin_bottom = 163.1
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button32" type="Button" parent="."]
+margin_left = 226.129
+margin_top = 171.76
+margin_right = 276.129
+margin_bottom = 221.76
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "2"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button41" type="Button" parent="."]
+margin_left = 226.792
+margin_top = 226.248
+margin_right = 276.792
+margin_bottom = 276.248
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button50" type="Button" parent="."]
+margin_left = 226.288
+margin_top = 280.591
+margin_right = 276.288
+margin_bottom = 330.591
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "9"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button59" type="Button" parent="."]
+margin_left = 227.059
+margin_top = 337.487
+margin_right = 277.059
+margin_bottom = 387.487
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button68" type="Button" parent="."]
+margin_left = 227.309
+margin_top = 391.874
+margin_right = 277.309
+margin_bottom = 441.874
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button77" type="Button" parent="."]
+margin_left = 227.145
+margin_top = 445.56
+margin_right = 277.145
+margin_bottom = 495.56
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "1"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button6" type="Button" parent="."]
+margin_left = 280.577
+margin_top = 5.69246
+margin_right = 330.577
+margin_bottom = 55.6925
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "9"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button17" type="Button" parent="."]
+margin_left = 281.911
+margin_top = 58.7285
+margin_right = 331.911
+margin_bottom = 108.729
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button24" type="Button" parent="."]
+margin_left = 281.911
+margin_top = 112.501
+margin_right = 331.911
+margin_bottom = 162.501
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "1"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button33" type="Button" parent="."]
+margin_left = 281.213
+margin_top = 171.161
+margin_right = 331.213
+margin_bottom = 221.161
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button42" type="Button" parent="."]
+margin_left = 281.184
+margin_top = 226.154
+margin_right = 331.184
+margin_bottom = 276.154
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "3"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button51" type="Button" parent="."]
+margin_left = 280.691
+margin_top = 280.673
+margin_right = 330.691
+margin_bottom = 330.673
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "5"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button60" type="Button" parent="."]
+margin_left = 280.514
+margin_top = 336.075
+margin_right = 330.514
+margin_bottom = 386.075
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button69" type="Button" parent="."]
+margin_left = 281.712
+margin_top = 392.297
+margin_right = 331.712
+margin_bottom = 442.297
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button78" type="Button" parent="."]
+margin_left = 282.229
+margin_top = 444.962
+margin_right = 332.229
+margin_bottom = 494.962
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "2"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button7" type="Button" parent="."]
+margin_left = 339.369
+margin_top = 6.08213
+margin_right = 389.369
+margin_bottom = 56.0821
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button18" type="Button" parent="."]
+margin_left = 339.909
+margin_top = 59.8543
+margin_right = 389.909
+margin_bottom = 109.854
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button25" type="Button" parent="."]
+margin_left = 339.909
+margin_top = 113.627
+margin_right = 389.909
+margin_bottom = 163.627
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "2"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button34" type="Button" parent="."]
+margin_left = 339.21
+margin_top = 172.287
+margin_right = 389.21
+margin_bottom = 222.287
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "6"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button43" type="Button" parent="."]
+margin_left = 338.512
+margin_top = 227.456
+margin_right = 388.512
+margin_bottom = 277.456
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button52" type="Button" parent="."]
+margin_left = 339.37
+margin_top = 279.756
+margin_right = 389.37
+margin_bottom = 329.756
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "7"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button61" type="Button" parent="."]
+margin_left = 338.512
+margin_top = 337.2
+margin_right = 388.512
+margin_bottom = 387.2
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button70" type="Button" parent="."]
+margin_left = 339.029
+margin_top = 392.06
+margin_right = 389.029
+margin_bottom = 442.06
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button79" type="Button" parent="."]
+margin_left = 340.227
+margin_top = 446.087
+margin_right = 390.227
+margin_bottom = 496.087
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button8" type="Button" parent="."]
+margin_left = 392.966
+margin_top = 5.69249
+margin_right = 442.966
+margin_bottom = 55.6925
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button11" type="Button" parent="."]
+margin_left = 393.995
+margin_top = 59.8327
+margin_right = 443.995
+margin_bottom = 109.833
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "4"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button22" type="Button" parent="."]
+margin_left = 394.363
+margin_top = 112.501
+margin_right = 444.363
+margin_bottom = 162.501
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "9"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button31" type="Button" parent="."]
+margin_left = 393.664
+margin_top = 171.161
+margin_right = 443.664
+margin_bottom = 221.161
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button40" type="Button" parent="."]
+margin_left = 392.966
+margin_top = 226.33
+margin_right = 442.966
+margin_bottom = 276.33
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button49" type="Button" parent="."]
+margin_left = 393.482
+margin_top = 281.014
+margin_right = 443.482
+margin_bottom = 331.014
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button58" type="Button" parent="."]
+margin_left = 392.625
+margin_top = 338.459
+margin_right = 442.625
+margin_bottom = 388.459
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button67" type="Button" parent="."]
+margin_left = 392.801
+margin_top = 391.616
+margin_right = 442.801
+margin_bottom = 441.616
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "3"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button76" type="Button" parent="."]
+margin_left = 393.318
+margin_top = 446.324
+margin_right = 443.318
+margin_bottom = 496.324
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button9" type="Button" parent="."]
+margin_left = 447.551
+margin_top = 5.76074
+margin_right = 497.551
+margin_bottom = 55.7607
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "6"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button15" type="Button" parent="."]
+margin_left = 447.475
+margin_top = 59.5329
+margin_right = 497.475
+margin_bottom = 109.533
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button21" type="Button" parent="."]
+margin_left = 446.923
+margin_top = 114.225
+margin_right = 496.923
+margin_bottom = 164.225
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "5"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button30" type="Button" parent="."]
+margin_left = 446.225
+margin_top = 172.886
+margin_right = 496.225
+margin_bottom = 222.886
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button39" type="Button" parent="."]
+margin_left = 445.527
+margin_top = 228.055
+margin_right = 495.527
+margin_bottom = 278.055
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "8"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button48" type="Button" parent="."]
+margin_left = 446.384
+margin_top = 279.497
+margin_right = 496.384
+margin_bottom = 329.497
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button57" type="Button" parent="."]
+margin_left = 445.527
+margin_top = 337.799
+margin_right = 495.527
+margin_bottom = 387.799
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button66" type="Button" parent="."]
+margin_left = 446.384
+margin_top = 390.956
+margin_right = 496.384
+margin_bottom = 440.956
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "7"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button75" type="Button" parent="."]
+margin_left = 447.242
+margin_top = 446.686
+margin_right = 497.242
+margin_bottom = 496.686
+custom_styles/pressed = SubResource( 3 )
+custom_styles/disabled = SubResource( 2 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+toggle_mode = true
+text = "4"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+show_behind_parent = true
+margin_right = 40.0
+margin_bottom = 40.0
+mouse_filter = 2
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true
+}
+
+[node name="Keyboard" parent="." instance=ExtResource( 4 )]
+margin_left = 25.9563
+margin_top = 548.969
+margin_right = 65.9563
+margin_bottom = 588.969

@@ -1,0 +1,87 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://keyboard/Button.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+margin_left = 24.9242
+margin_top = 562.998
+margin_right = 64.9242
+margin_bottom = 602.998
+
+[node name="Button" type="Button" parent="."]
+margin_right = 38.0
+margin_bottom = 38.0
+text = "1"
+script = ExtResource( 1 )
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 46.0904
+margin_top = 0.698303
+margin_right = 84.0904
+margin_bottom = 38.6983
+text = "2"
+script = ExtResource( 1 )
+
+[node name="Button3" type="Button" parent="."]
+margin_left = 91.4825
+margin_top = 2.79333
+margin_right = 129.482
+margin_bottom = 40.7933
+text = "3"
+script = ExtResource( 1 )
+
+[node name="Button4" type="Button" parent="."]
+margin_left = 135.478
+margin_top = 2.79333
+margin_right = 173.478
+margin_bottom = 40.7933
+text = "4"
+script = ExtResource( 1 )
+
+[node name="Button5" type="Button" parent="."]
+margin_left = 179.473
+margin_top = 2.79333
+margin_right = 217.473
+margin_bottom = 40.7933
+text = "5"
+script = ExtResource( 1 )
+
+[node name="Button6" type="Button" parent="."]
+margin_left = 222.77
+margin_top = 3.49164
+margin_right = 260.77
+margin_bottom = 41.4916
+text = "6"
+script = ExtResource( 1 )
+
+[node name="Button7" type="Button" parent="."]
+margin_left = 268.162
+margin_top = 3.49164
+margin_right = 306.162
+margin_bottom = 41.4916
+text = "7"
+script = ExtResource( 1 )
+
+[node name="Button8" type="Button" parent="."]
+margin_left = 312.856
+margin_top = 3.49164
+margin_right = 350.856
+margin_bottom = 41.4916
+text = "8"
+script = ExtResource( 1 )
+
+[node name="Button9" type="Button" parent="."]
+margin_left = 358.947
+margin_top = 4.19
+margin_right = 396.947
+margin_bottom = 42.19
+text = "9"
+script = ExtResource( 1 )
+
+[node name="Button10" type="Button" parent="."]
+margin_left = 423.525
+margin_top = 2.60333
+margin_right = 461.525
+margin_bottom = 40.6033
+text = "X"
+script = ExtResource( 1 )
